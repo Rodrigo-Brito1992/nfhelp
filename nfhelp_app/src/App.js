@@ -1,11 +1,12 @@
+import React from "react";
+import Router from "../src/ROTAS/Router";
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <p> Olá Mundo </p>
+    <div>
+      <Router />
     </div>
   );
-}
+};
 
 export default App;
