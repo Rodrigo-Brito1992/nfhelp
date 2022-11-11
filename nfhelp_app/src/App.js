@@ -1,5 +1,5 @@
 import React from "react";
-import Router from "../src/ROTAS/Router";
+import Router from "./ROTAS/Router";
 
 const App = () => {
   return (

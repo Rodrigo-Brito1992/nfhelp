@@ -1,5 +1,5 @@
 import {Base_Styled} from "./Styles_Base";
-import Nf from "../NF/Nf";
+import Nf from "../NF/RECEPCAO/RecepcaoNf";
 
 const Base = () => {
     return(

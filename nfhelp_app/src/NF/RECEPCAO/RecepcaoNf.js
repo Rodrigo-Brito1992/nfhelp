@@ -1,17 +1,14 @@
-import Nota from "../Assets/NotaCli.jpg";
-import {RecepcaoNf_Styled} from "./Styles_RecepcaoNf";
+import Nota1 from "./NotaCli.jpg";
+import Recepnf_Styled from "../RECEPCAO/Styles_RecepcaoNf";
 
 const RecepcaoNf = () => {
     return(
 
-    <div>
+   <div>
+<Recepnf_Styled src={Nota1} />
+   </div> 
 
-<Nf_Styled src={Nota} />
-
-    </div>
-
-    )
-    
+    ) 
 }
 
 export default RecepcaoNf;
