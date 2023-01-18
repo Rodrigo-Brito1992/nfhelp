@@ -1,11 +1,12 @@
 import React from "react";
 import Router from "./ROTAS/Router";
+import Base from "./BASE/Base";
 
 const App = () => {
   return (
-    <div>
+    <Base>
       <Router />
-    </div>
+    </Base>
   );
 };
 
